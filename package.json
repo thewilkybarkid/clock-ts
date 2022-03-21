@@ -1,0 +1,13 @@
+{
+  "name": "clock-ts",
+  "license": "MIT",
+  "repository": "github:thewilkybarkid/clock-ts",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
