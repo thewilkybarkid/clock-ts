@@ -1,5 +1,6 @@
 {
   "name": "clock-ts",
+  "description": "A clock abstraction for use with fp-ts.",
   "license": "MIT",
   "homepage": "https://github.com/thewilkybarkid/clock-ts",
   "repository": "github:thewilkybarkid/clock-ts",

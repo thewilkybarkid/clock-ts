@@ -3,6 +3,8 @@ title: Home
 nav_order: 1
 ---
 
+A clock abstraction for use with [fp-ts].
+
 # Example
 
 ```ts
@@ -21,3 +23,5 @@ The date is
 2022-03-22T11:04:31.640Z
 */
 ```
+
+[fp-ts]: https://gcanti.github.io/fp-ts/
