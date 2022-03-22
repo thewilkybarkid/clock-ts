@@ -27,4 +27,16 @@ describe('clock-ts', () => {
       jest.useRealTimers()
     })
   })
+
+  describe('utils', () => {
+    test('now', () => {
+      fc.assert(
+        fc.property(fc.date(), date => {
+          const clockEnv: _.ClockEnv = { clock: _.FixedClock(date) }
+
+          expect(_.now(clockEnv)()).toStrictEqual(date)
+        }),
+      )
+    })
+  })
 })

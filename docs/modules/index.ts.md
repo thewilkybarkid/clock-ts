@@ -17,6 +17,9 @@ Added in v0.1.0
   - [SystemClock](#systemclock)
 - [model](#model)
   - [Clock (type alias)](#clock-type-alias)
+  - [ClockEnv (interface)](#clockenv-interface)
+- [utils](#utils)
+  - [now](#now)
 
 ---
 
@@ -60,6 +63,41 @@ Added in v0.1.0
 
 ```ts
 export type Clock = IO<Date>
+```
+
+Added in v0.1.0
+
+## ClockEnv (interface)
+
+**Signature**
+
+```ts
+export interface ClockEnv {
+  clock: Clock
+}
+```
+
+Added in v0.1.0
+
+# utils
+
+## now
+
+**Signature**
+
+```ts
+export declare const now: RIO.ReaderIO<ClockEnv, Date>
+```
+
+**Example**
+
+```ts
+import * as C from 'clock-ts'
+import { pipe } from 'fp-ts/function'
+
+const date = new Date('2001-02-03')
+const env = { clock: C.FixedClock(date) }
+assert.deepStrictEqual(pipe(env, C.now)(), date)
 ```
 
 Added in v0.1.0
