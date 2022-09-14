@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/thewilkybarkid/clock-ts/compare/v0.1.0...v0.1.1) (2022-09-14)
+
+
+### Bug Fixes
+
+* make the environment immutable ([690ed98](https://github.com/thewilkybarkid/clock-ts/commit/690ed985237090a3b80178806fee58d290ec2783))
+
 ## 0.1.0 (2022-03-22)
 
 
