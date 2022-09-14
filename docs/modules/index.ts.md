@@ -73,7 +73,7 @@ Added in v0.1.0
 
 ```ts
 export interface ClockEnv {
-  clock: Clock
+  readonly clock: Clock
 }
 ```
 

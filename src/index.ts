@@ -23,7 +23,7 @@ export type Clock = IO<Date>
  * @since 0.1.0
  */
 export interface ClockEnv {
-  clock: Clock
+  readonly clock: Clock
 }
 
 // -------------------------------------------------------------------------------------
