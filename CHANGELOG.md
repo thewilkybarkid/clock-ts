@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/thewilkybarkid/clock-ts/compare/v0.1.1...v0.1.2) (2022-10-20)
+
+
+### Features
+
+* remove fp-ts-contrib dependency ([7dc421c](https://github.com/thewilkybarkid/clock-ts/commit/7dc421c683de55091c724f9cc68a2ac88ef647f7))
+
 ### [0.1.1](https://github.com/thewilkybarkid/clock-ts/compare/v0.1.0...v0.1.1) (2022-09-14)
 
 
