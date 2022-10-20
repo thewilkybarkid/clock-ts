@@ -1,9 +1,9 @@
 /**
  * @since 0.1.0
  */
-import * as RIO from 'fp-ts-contrib/ReaderIO'
 import * as D from 'fp-ts/Date'
 import * as I from 'fp-ts/IO'
+import * as RIO from 'fp-ts/ReaderIO'
 
 import IO = I.IO
 import ReaderIO = RIO.ReaderIO
